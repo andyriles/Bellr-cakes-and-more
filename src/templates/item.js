@@ -94,7 +94,7 @@ class Item extends React.Component {
         <ImgStyled fluid={item.frontmatter.image.childImageSharp.fluid} />
 
         <Price>
-          £
+          ₦
           {this.updatePrice(
             item.frontmatter.price,
             item.frontmatter.customField.values
