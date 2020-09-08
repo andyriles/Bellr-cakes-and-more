@@ -3,7 +3,7 @@ module.exports = {
     title: `E-commerce Snipcart and Gatsby Starter`,
     author: `Andrew Efurhievwe`,
     description: `A simple e-commerce shop using Gatsby and Snipcart.`,
-    siteUrl: `https://bellr-cakes-and-more.netlify.app/`,
+    siteUrl: `https://bellr-cakes.netlify.app/`,
   },
   plugins: [
     {

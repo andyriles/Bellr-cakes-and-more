@@ -9,7 +9,6 @@ customField:
   name: Pack Size
   values:
     [
-      { name: "One Cake", priceChange: 0 },
       { name: "Pack of 6", priceChange: 3000.00 },
       { name: "Pack of 12", priceChange: 5000.00 },
       { name: "Pack of 24", priceChange: 9500.00 },
