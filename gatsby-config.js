@@ -1,3 +1,6 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 module.exports = {
   siteMetadata: {
     title: `E-commerce Snipcart and Gatsby Starter`,
@@ -61,8 +64,7 @@ module.exports = {
       resolve: "gatsby-plugin-snipcart",
       options: {
         //replace with own Snipcart API key
-        apiKey:
-          "NmE1MjlkM2MtZDVlYi00NDBhLThkZWEtZjMxYTc4MDJiM2NiNjM3MzUwODg0NDg2OTM3ODI4",
+        apiKey: process.env.SNIPCART_ACCESS_TOKEN,
         autopop: true,
       },
     },
